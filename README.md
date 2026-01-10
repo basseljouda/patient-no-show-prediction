@@ -177,22 +177,19 @@ patient-no-show-prediction/
 ├── data/
 │   ├── raw/
 │   │   └── KaggleV2-May-2016.csv          # Original dataset
-│   └── processed/
-│       └── cleaned_data.csv               # Cleaned & engineered features
 ├── notebooks/
-│   ├── 01_eda.ipynb                       # Exploratory Data Analysis
+│   ├── 01_initial_eda.ipynb               # Exploratory Data Analysis
 │   ├── 02_feature_engineering.ipynb       # Feature creation & selection
-│   └── 03_modeling_and_shap.ipynb         # Modeling & interpretation
+│   └── 03_modeling.ipynb                  # Modeling & interpretation
+│   └── 04_explainability.ipynb            # Explainbility and evaluations
 ├── src/
 │   ├── data_preprocessing.py              # Data cleaning pipeline
 │   ├── model.py                           # Model training
-│   └── evaluate.py                         # Model evaluation
-├── requirements.txt                        # Python dependencies
-├── README.md                               # This file
+│   └── train_evaluate.py                  # Run Model training & evaluation
+├── requirements.txt                       # Python dependencies
+├── README.md                              # This file
 └── .gitignore                             # Git exclusion rules
 ```
-
----
 
 ## 🛠️ Installation & Usage
 
@@ -203,7 +200,7 @@ patient-no-show-prediction/
 ### **Setup:**
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/patient-no-show-prediction.git
+git clone https://github.com/basseljouda/patient-no-show-prediction.git
 cd patient-no-show-prediction
 
 # Install dependencies
@@ -218,12 +215,13 @@ pip install -r requirements.txt
 ### **Run Analysis:**
 ```bash
 # Option 1: Jupyter Notebooks (interactive exploration)
-jupyter notebook notebooks/01_eda.ipynb
+jupyter notebook notebooks/01_initial_eda.ipynb
 jupyter notebook notebooks/02_feature_engineering.ipynb
-jupyter notebook notebooks/03_modeling_and_shap.ipynb
+jupyter notebook notebooks/03_modeling.ipynb
+jupyter notebook notebooks/04_explainability.ipynb
 
 # Option 2: Run pipeline programmatically
-python src/model.py
+python src/train_evaluate.py
 ```
 
 ---
