@@ -246,9 +246,9 @@ This project is open source under the MIT License. See LICENSE file for details.
 ## 👤 Author
 
 **Basel Jouda**  
-Data Scientist | Healthcare Analytics  
+Software Engineer
 [basseljouda@gmail.com](mailto:basseljouda@gmail.com)  
-[LinkedIn Profile](https://linkedin.com/in/yourprofile) | [GitHub Portfolio](https://github.com/yourusername)
+[LinkedIn Profile](https://linkedin.com/in/basseljouda) | [GitHub Portfolio](https://github.com/basseljouda)
 
 ---
 
