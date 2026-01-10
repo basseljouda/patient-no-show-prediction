@@ -185,9 +185,8 @@ patient-no-show-prediction/
 │   └── 03_modeling_and_shap.ipynb         # Modeling & interpretation
 ├── src/
 │   ├── data_preprocessing.py              # Data cleaning pipeline
-│   ├── feature_engineering.py             # Feature transformation functions
-│   ├── model.py                           # Model training & evaluation
-│   └── utils.py                           # Helper functions
+│   ├── model.py                           # Model training
+│   └── evaluate.py                         # Model evaluation
 ├── requirements.txt                        # Python dependencies
 ├── README.md                               # This file
 └── .gitignore                             # Git exclusion rules

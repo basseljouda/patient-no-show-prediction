@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.discriminant_analysis import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
-from preprocess import preprocess_data
+from src.data_preprocessing import preprocess_data
 
 def train_model():
     # Preprocess data
