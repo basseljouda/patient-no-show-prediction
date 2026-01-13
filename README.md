@@ -564,6 +564,13 @@ patient-no-show-prediction/
 - [ ] Multi-site deployment across hospital networks
 - [ ] Real-time model retraining pipeline
 
+### Limitations
+
+- Model trained on a single public dataset
+- Lacks patient history and visit context
+- Performance may vary across institutions
+- Requires retraining for new clinics
+
 ---
 
 ## 📚 References
